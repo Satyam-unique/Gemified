@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - GAMIFIED-LEARNING</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ULTRA COSMIC BACKGROUND -->
+<div class="cosmic-bg">
+    <div class="cosmic-layer nebula-layer"></div>
+    <div class="cosmic-layer star-layer star-layer-1"></div>
+    <div class="cosmic-layer star-layer star-layer-2"></div>
+
+    <div class="cosmic-layer planet-orb planet-orb-1"></div>
+    <div class="cosmic-layer planet-orb planet-orb-2"></div>
+
+    <div class="shooting-stars">
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+    </div>
+</div>
+
+<!-- ================== NAVBAR ================== -->
+<header class="navbar" id="main-navbar">
+    <div class="logo">
+        <i class="fas fa-gamepad"></i> GAMIFIED-LEARNING
+    </div>
+
+    <div class="selected-course" id="nav-course-title"></div>
+
+    <div class="user-info">
+        <div class="profile-container">
+            <span class="username" id="display-name">Loading...</span>
+            <img src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" class="avatar">
+
+            <div class="dropdown-menu">
+                <button id="open-profile-modal">Profile</button>
+
+                <div class="dropdown-separator"></div>
+
+                <div class="theme-switcher">
+                    <span>Dark Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <button id="logout-button" class="btn-logout">Logout</button>
+    </div>
+</header>
+
+<!-- ================== BODY WRAPPER ================== -->
+<div class="dashboard-body">
+
+    <!-- =========== SIDEBAR ============= -->
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a class="sidebar-link active" id="nav-study">
+                <i class="fas fa-book-open"></i> Study
+            </a>
+
+            <a class="sidebar-link" id="nav-quizzes">
+                <i class="fas fa-pen-fancy"></i> Quizzes
+            </a>
+
+            <a class="sidebar-link" id="nav-leaderboard">
+                <i class="fas fa-trophy"></i> Leaderboard
+            </a>
+
+            <a class="sidebar-link" id="nav-store">
+                <i class="fas fa-shopping-cart"></i> XP Store
+            </a>
+        </nav>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+
+        <!-- ******** STUDY SECTION ******** -->
+        <section id="study-section" class="content-section">
+
+            <!-- Welcome Banner -->
+            <div class="welcome-banner">
+                <h2 id="welcome-message">Welcome! 👋</h2>
+                <p id="streak-line">Keep your learning streak going!</p>
+
+                <div class="level-strip">
+                    <div class="level-ring" id="level-ring">
+                        <span id="level-number">1</span>
+                    </div>
+                    <div class="level-info">
+                        <div id="tier-label">Rookie</div>
+                        <small id="xp-progress-label">0 / 50 XP to next level</small>
+                    </div>
+                </div>
+
+                <div class="badge-row" id="badge-row"></div>
+            </div>
+
+            <!-- SAGA MAP -->
+            <h3>Your Learning Path</h3>
+            <p class="path-subtitle">
+                Follow your saga – each node is a chapter or milestone.
+            </p>
+
+            <div id="saga-map" class="saga-map">
+                <div class="saga-header-line">
+                    <span id="saga-course-title">Loading...</span>
+                    <small id="saga-course-progress">0% complete</small>
+                </div>
+
+                <p id="saga-comparison-line" class="saga-comparison-line">
+                    Calculating progress…
+                </p>
+
+                <div class="saga-track" id="saga-track">
+                    <!-- Saga Nodes injected by JS -->
+                </div>
+
+                <div class="saga-legend">
+                    <span class="legend-dot legend-completed"></span> Completed
+                    <span class="legend-dot legend-current"></span> Current
+                    <span class="legend-dot legend-locked"></span> Locked
+                </div>
+            </div>
+
+            <!-- SUBJECT SHORTCUT CARDS -->
+            <h3>Choose a Subject</h3>
+            <div class="subject-grid">
+                <a class="subject-card" data-subject="physics">
+                    <i class="fas fa-atom"></i>
+                    <h4>Physics</h4>
+                </a>
+                <a class="subject-card" data-subject="chemistry">
+                    <i class="fas fa-flask"></i>
+                    <h4>Chemistry</h4>
+                </a>
+                <a class="subject-card" data-subject="maths">
+                    <i class="fas fa-calculator"></i>
+                    <h4>Maths</h4>
+                </a>
+                <a class="subject-card" data-subject="biology">
+                    <i class="fas fa-dna"></i>
+                    <h4>Biology</h4>
+                </a>
+            </div>
+
+            <!-- PERFORMANCE INSIGHTS -->
+            <div class="performance-section">
+                <h3>Performance Insights</h3>
+                <p class="missions-subtitle">See your progress and fix weak areas.</p>
+
+                <div class="performance-grid">
+                    <div class="performance-card">
+                        <h4>Quiz Performance Over Time</h4>
+                        <canvas id="xp-history-chart" height="170"></canvas>
+                        <p class="performance-hint">
+                            Each point = your score in one quiz.
+                        </p>
+                    </div>
+
+                    <div class="performance-card">
+                        <h4>Strengths & Weak Areas</h4>
+                        <div id="subject-strengths">
+                            <p>Play some quizzes to unlock analytics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DAILY MISSIONS -->
+            <div class="missions-section">
+                <h3>Daily Missions</h3>
+                <p class="missions-subtitle">
+                    Complete these quick goals to boost your streak and XP.
+                </p>
+                <div id="missions-list" class="missions-grid">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ******** QUIZZES SECTION ******** -->
+        <section id="quizzes-section" class="content-section" style="display: none;">
+
+            <div class="quiz-header">
+                <h2>Quizzes</h2>
+                <p>Earn XP by solving quick MCQs.</p>
+
+                <div class="quiz-controls">
+                    <div class="quiz-control-group">
+                        <label>Subject</label>
+                        <select id="quiz-subject-select">
+                            <option value="physics">Physics</option>
+                            <option value="chemistry">Chemistry</option>
+                            <option value="maths">Maths</option>
+                            <option value="biology">Biology</option>
+                        </select>
+                    </div>
+
+                    <div class="quiz-control-group">
+                        <label>Questions</label>
+                        <select id="quiz-question-count">
+                            <option value="5">5</option>
+                            <option value="10" selected>10</option>
+                        </select>
+                    </div>
+
+                    <button id="start-quiz-btn" class="btn-login">Start Quiz</button>
+                </div>
+            </div>
+
+            <!-- QUIZ CARD -->
+            <div id="quiz-card" class="quiz-card hidden">
+                <div class="quiz-meta">
+                    <span id="quiz-progress-label">Question 1/1</span>
+                    <span id="quiz-xp-label">XP: 10</span>
+                </div>
+
+                <div id="quiz-timer-bar">
+                    <div id="quiz-timer-fill"></div>
+                </div>
+
+                <div class="quiz-progress-bar-outer">
+                    <div id="quiz-progress-bar-inner" class="quiz-progress-bar-inner"></div>
+                </div>
+
+                <h3 id="quiz-question-text">Question appears here</h3>
+
+                <!-- 50/50 Lifeline row -->
+                <div class="lifeline-row" style="display:flex;align-items:center;gap:0.6rem;margin-top:0.6rem;">
+                    <button id="btn-use-5050" class="btn-login quiz-secondary-btn" disabled>Use 50/50</button>
+                    <small>Lifelines left: <span id="lifeline-count">0</span></small>
+                </div>
+
+                <ul id="quiz-options-list" class="quiz-options"></ul>
+
+                <p id="quiz-feedback" class="quiz-feedback"></p>
+
+                <div class="quiz-footer">
+                    <button id="prev-question-btn" class="btn-login quiz-secondary-btn" disabled>Prev</button>
+                    <button id="next-question-btn" class="btn-login" disabled>Next</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ******** LEADERBOARD SECTION ******** -->
+        <section id="leaderboard-section" class="content-section" style="display:none;">
+            <h3>Leaderboard</h3>
+
+            <div class="leaderboard-card">
+                <div class="leaderboard-header-row">
+                    <div class="lb-title-block">
+                        <h4>Global Top Players</h4>
+                        <p>See where you stand among other learners.</p>
+                    </div>
+                    <div class="lb-summary-pill" id="leaderboard-summary">
+                        Play a quiz to enter the Top 10!
+                    </div>
+                </div>
+
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Level</th>
+                            <th>XP</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <!-- JS se fill hoga -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ******** XP STORE ******** -->
+        <section id="store-section" class="content-section" style="display:none;">
+            <div class="store-header">
+                <h2><i class="fas fa-store"></i> XP Store</h2>
+                <p>Spend XP to buy power-ups, frames, and avatars!</p>
+                <div class="user-balance">
+                    Your Balance: <span id="store-xp-balance">0</span> XP
+                </div>
+            </div>
+
+            <div id="store-items-container" class="store-grid"></div>
+        </section>
+
+    </main>
+</div>
+
+<!-- PROFILE MODAL -->
+<div id="profile-modal" class="modal">
+    <div class="modal-content profile-modal-content">
+        <span class="close-button">&times;</span>
+
+        <div class="profile-header">
+            <img src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" class="profile-avatar-large">
+            <h3 id="profile-modal-name">Loading...</h3>
+        </div>
+
+        <!-- Gamification overview (XP, Level, Streak) -->
+        <div class="gamification-overview">
+            <div class="xp-details">
+                <div>
+                    <span>Total XP</span>
+                    <strong id="profile-xp">0</strong>
+                </div>
+                <div>
+                    <span>Level</span>
+                    <strong id="profile-level">1</strong>
+                </div>
+                <div>
+                    <span>Streak</span>
+                    <strong id="profile-streak">0</strong>
+                </div>
+            </div>
+        </div>
+
+        <form id="profile-form" class="profile-details-form">
+
+            <h4>Personal Details</h4>
+            <div class="form-grid">
+                <div class="input-group">
+                    <label>Name</label>
+                    <input id="profile-name" name="profile-name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Mobile</label>
+                    <input id="profile-mobile" name="profile-mobile" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input id="profile-email" name="profile-email" disabled>
+                </div>
+
+                <div class="input-group">
+                    <label>City</label>
+                    <input id="profile-city" name="profile-city" required>
+                </div>
+            </div>
+
+            <h4>Academic Details</h4>
+
+            <div class="form-grid">
+                <div class="input-group">
+                    <label>Class</label>
+                    <select id="profile-class" name="profile-class" required>
+                        <option value="9">Class 9</option>
+                        <option value="10">Class 10</option>
+                        <option value="11">Class 11</option>
+                        <option value="12">Class 12</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="btn-login" type="submit">Save</button>
+
+        </form>
+    </div>
+</div>
+
+<!-- QUIZ START OVERLAY (COUNTDOWN) -->
+<div id="quiz-start-overlay" class="quiz-start-overlay hidden">
+    <div class="quiz-start-content">
+        <!-- IMPORTANT: id MUST be quiz-countdown-number (script.js ke hisaab se) -->
+        <span id="quiz-countdown">3</span>
+        <p>Get ready…</p>
+    </div>
+</div>
+
+<!-- QUIZ FINISH OVERLAY WITH BONUS WHEEL -->
+<div id="quiz-finish-overlay" class="quiz-finish-overlay hidden">
+    <div class="quiz-finish-content">
+        <h2>Great Job! 🎉</h2>
+
+        <!-- Wheel -->
+        <div class="quiz-finish-ring"></div>
+
+        <p id="quiz-finish-summary">You earned XP</p>
+        <p id="bonus-result" class="bonus-result">Spin for bonus!</p>
+
+        <button id="bonus-spin-btn" class="btn-login">Spin for Bonus XP</button>
+        <button id="bonus-skip-btn" class="btn-login quiz-secondary-btn">Skip</button>
+    </div>
+</div>
+
+<!-- FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+<!-- Chart.js for analytics -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Main Script -->
+<script src="script.js"></script>
+
+</body>
+</html>

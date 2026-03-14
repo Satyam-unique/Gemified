@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GAMIFIED-LEARNING</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="auth-page">
+    <div class="login-container">
+        <!-- Floating game orbs for background -->
+        <div class="auth-orb orb-a"></div>
+        <div class="auth-orb orb-b"></div>
+        <div class="auth-orb orb-c"></div>
+
+        <!-- LEFT SIDE ART -->
+        <div class="login-art">
+            <div class="login-logo login-logo-animated">
+                <span class="logo-chip">
+                    <i class="fas fa-gamepad"></i>
+                </span>
+                <span>GAMIFIED-LEARNING</span>
+            </div>
+
+            <img src="https://i.imgur.com/z1Q4T1v.png"
+                 class="login-illustration login-illustration-float"
+                 alt="Gamified Learning Illustration">
+
+            <p class="login-tagline">Make every lesson an adventure.</p>
+
+            <div class="login-progress-cards">
+                <div class="lp-card">
+                    <span>⭐</span>
+                    <div>
+                        <strong>Earn XP</strong>
+                        <small>Get rewards for every quiz.</small>
+                    </div>
+                </div>
+                <div class="lp-card">
+                    <span>🔥</span>
+                    <div>
+                        <strong>Build Streaks</strong>
+                        <small>Login daily to boost rank.</small>
+                    </div>
+                </div>
+                <div class="lp-card">
+                    <span>🏆</span>
+                    <div>
+                        <strong>Compete</strong>
+                        <small>Climb the leaderboard with friends.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE FORM -->
+        <div class="login-form-container">
+            <form class="login-form auth-card" id="login-form">
+                <div class="form-header">
+                    <div class="form-badge">Student Login</div>
+
+                    <div class="logo form-logo-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h2>Welcome Back!</h2>
+                    <p>Please enter your details to sign in.</p>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="name@email.com">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="••••••••">
+                </div>
+
+                <div class="login-perks">
+                    <span>🎯 Quick practice quizzes</span>
+                    <span>💎 Unlock badges</span>
+                    <span>🚀 Track your growth</span>
+                </div>
+                
+                <button type="submit" class="btn-login login-main-btn">
+                    <span>Login</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
+                <div class="separator">
+                    <span>OR</span>
+                </div>
+
+                <div class="social-login">
+                    <button type="button" class="social-btn google" id="google-login-btn">
+                        <i class="fab fa-google"></i> Sign in with Google
+                    </button>
+                </div>
+
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

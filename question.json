@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "9-phy-1",
+    "class": "9",
+    "subject": "Physics",
+    "question": "SI unit of force is:",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "correctIndex": 0
+  },
+  {
+    "id": "9-phy-2",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Device used to measure electric current is called:",
+    "options": ["Voltmeter", "Ammeter", "Thermometer", "Barometer"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-phy-3",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Speed is equal to:",
+    "options": ["Distance × Time", "Distance ÷ Time", "Time ÷ Distance", "Force ÷ Mass"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-phy-4",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Approximate value of acceleration due to gravity on Earth is:",
+    "options": ["8.9 m/s²", "9.8 m/s²", "10.8 m/s²", "1.8 m/s²"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-phy-5",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Force that pulls objects towards the Earth is:",
+    "options": ["Magnetic force", "Electrostatic force", "Gravitational force", "Nuclear force"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-phy-6",
+    "class": "9",
+    "subject": "Physics",
+    "question": "SI unit of electric power is:",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "correctIndex": 3
+  },
+  {
+    "id": "9-phy-7",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Concave mirror", "Plane mirror", "Convex mirror", "Parabolic mirror"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-phy-8",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Energy stored in a raised object is called:",
+    "options": ["Kinetic energy", "Potential energy", "Heat energy", "Chemical energy"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-phy-9",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Sound cannot travel through:",
+    "options": ["Solid", "Liquid", "Gas", "Vacuum"],
+    "correctIndex": 3
+  },
+  {
+    "id": "9-phy-10",
+    "class": "9",
+    "subject": "Physics",
+    "question": "Approximate speed of light in air is:",
+    "options": ["3 × 10³ m/s", "3 × 10⁵ m/s", "3 × 10⁶ m/s", "3 × 10⁸ m/s"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "9-chem-1",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Atomic number of an element is equal to the number of:",
+    "options": ["Neutrons", "Protons", "Electrons in outer shell", "Nucleons"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-chem-2",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Chemical symbol of Sodium is:",
+    "options": ["So", "Na", "Sn", "S"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-chem-3",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "pH of a neutral solution is:",
+    "options": ["0", "5", "7", "14"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-chem-4",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Gas used by plants during photosynthesis is:",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-chem-5",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Smallest unit of an element which retains its properties is:",
+    "options": ["Molecule", "Atom", "Ion", "Nucleus"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-chem-6",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Water (H₂O) is an example of a:",
+    "options": ["Element", "Mixture", "Compound", "Alloy"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-chem-7",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Which of the following is a noble gas?",
+    "options": ["Oxygen", "Nitrogen", "Neon", "Hydrogen"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-chem-8",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Change of solid directly into gas is called:",
+    "options": ["Condensation", "Evaporation", "Sublimation", "Fusion"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-chem-9",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "Chemical formula of common salt is:",
+    "options": ["KCl", "NaCl", "Na₂CO₃", "CaCO₃"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-chem-10",
+    "class": "9",
+    "subject": "Chemistry",
+    "question": "The main acid present in lemon is:",
+    "options": ["Hydrochloric acid", "Sulphuric acid", "Nitric acid", "Citric acid"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "9-math-1",
+    "class": "9",
+    "subject": "Maths",
+    "question": "Approximate value of π is:",
+    "options": ["2.14", "3.14", "3.41", "4.13"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-math-2",
+    "class": "9",
+    "subject": "Maths",
+    "question": "2 + 3 × 4 equals:",
+    "options": ["20", "24", "14", "12"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-3",
+    "class": "9",
+    "subject": "Maths",
+    "question": "A triangle with all sides equal is called:",
+    "options": ["Isosceles triangle", "Scalene triangle", "Equilateral triangle", "Right triangle"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-4",
+    "class": "9",
+    "subject": "Maths",
+    "question": "1 kilometre is equal to:",
+    "options": ["10 metres", "100 metres", "1000 metres", "10000 metres"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-5",
+    "class": "9",
+    "subject": "Maths",
+    "question": "Perimeter of a square with side a is:",
+    "options": ["2a", "3a", "4a", "a²"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-6",
+    "class": "9",
+    "subject": "Maths",
+    "question": "5² is equal to:",
+    "options": ["10", "15", "20", "25"],
+    "correctIndex": 3
+  },
+  {
+    "id": "9-math-7",
+    "class": "9",
+    "subject": "Maths",
+    "question": "A line cutting a circle at two points is called:",
+    "options": ["Radius", "Diameter", "Secant", "Tangent"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-8",
+    "class": "9",
+    "subject": "Maths",
+    "question": "Mean of 2, 4, 6, 8 is:",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-math-9",
+    "class": "9",
+    "subject": "Maths",
+    "question": "Sum of angles in a triangle is:",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-math-10",
+    "class": "9",
+    "subject": "Maths",
+    "question": "Which of the following is an even number?",
+    "options": ["5", "7", "9", "8"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "9-bio-1",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Basic unit of life is:",
+    "options": ["Tissue", "Organ", "Cell", "Organ system"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-bio-2",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Photosynthesis mainly occurs in:",
+    "options": ["Mitochondria", "Nucleus", "Chloroplast", "Vacuole"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-bio-3",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Largest organ of the human body is:",
+    "options": ["Liver", "Skin", "Heart", "Brain"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-bio-4",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Blood cells that carry oxygen are:",
+    "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma cells"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-bio-5",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Organ that pumps blood in the body is:",
+    "options": ["Lungs", "Brain", "Heart", "Kidney"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-bio-6",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Shoulder joint is an example of:",
+    "options": ["Hinge joint", "Ball and socket joint", "Pivot joint", "Gliding joint"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-bio-7",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Animals that eat only plants are called:",
+    "options": ["Carnivores", "Omnivores", "Herbivores", "Decomposers"],
+    "correctIndex": 2
+  },
+  {
+    "id": "9-bio-8",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Loss of water from leaves in the form of vapour is called:",
+    "options": ["Respiration", "Transpiration", "Osmosis", "Diffusion"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-bio-9",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Respiratory organs in fish are:",
+    "options": ["Lungs", "Gills", "Skin", "Tracheae"],
+    "correctIndex": 1
+  },
+  {
+    "id": "9-bio-10",
+    "class": "9",
+    "subject": "Biology",
+    "question": "Tissue that connects muscle to bone is called:",
+    "options": ["Ligament", "Tendon", "Cartilage", "Nerve"],
+    "correctIndex": 1
+  },
+
+  {
+    "id": "10-phy-1",
+    "class": "10",
+    "subject": "Physics",
+    "question": "SI unit of force is:",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "correctIndex": 0
+  },
+  {
+    "id": "10-phy-2",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Device used to measure electric current is called:",
+    "options": ["Voltmeter", "Ammeter", "Thermometer", "Barometer"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-phy-3",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Speed is equal to:",
+    "options": ["Distance × Time", "Distance ÷ Time", "Time ÷ Distance", "Force ÷ Mass"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-phy-4",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Approximate value of acceleration due to gravity on Earth is:",
+    "options": ["8.9 m/s²", "9.8 m/s²", "10.8 m/s²", "1.8 m/s²"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-phy-5",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Force that pulls objects towards the Earth is:",
+    "options": ["Magnetic force", "Electrostatic force", "Gravitational force", "Nuclear force"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-phy-6",
+    "class": "10",
+    "subject": "Physics",
+    "question": "SI unit of electric power is:",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "correctIndex": 3
+  },
+  {
+    "id": "10-phy-7",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Concave mirror", "Plane mirror", "Convex mirror", "Parabolic mirror"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-phy-8",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Energy stored in a raised object is called:",
+    "options": ["Kinetic energy", "Potential energy", "Heat energy", "Chemical energy"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-phy-9",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Sound cannot travel through:",
+    "options": ["Solid", "Liquid", "Gas", "Vacuum"],
+    "correctIndex": 3
+  },
+  {
+    "id": "10-phy-10",
+    "class": "10",
+    "subject": "Physics",
+    "question": "Approximate speed of light in air is:",
+    "options": ["3 × 10³ m/s", "3 × 10⁵ m/s", "3 × 10⁶ m/s", "3 × 10⁸ m/s"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "10-chem-1",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Atomic number of an element is equal to the number of:",
+    "options": ["Neutrons", "Protons", "Electrons in outer shell", "Nucleons"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-chem-2",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Chemical symbol of Sodium is:",
+    "options": ["So", "Na", "Sn", "S"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-chem-3",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "pH of a neutral solution is:",
+    "options": ["0", "5", "7", "14"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-chem-4",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Gas used by plants during photosynthesis is:",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-chem-5",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Smallest unit of an element which retains its properties is:",
+    "options": ["Molecule", "Atom", "Ion", "Nucleus"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-chem-6",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Water (H₂O) is an example of a:",
+    "options": ["Element", "Mixture", "Compound", "Alloy"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-chem-7",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Which of the following is a noble gas?",
+    "options": ["Oxygen", "Nitrogen", "Neon", "Hydrogen"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-chem-8",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Change of solid directly into gas is called:",
+    "options": ["Condensation", "Evaporation", "Sublimation", "Fusion"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-chem-9",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "Chemical formula of common salt is:",
+    "options": ["KCl", "NaCl", "Na₂CO₃", "CaCO₃"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-chem-10",
+    "class": "10",
+    "subject": "Chemistry",
+    "question": "The main acid present in lemon is:",
+    "options": ["Hydrochloric acid", "Sulphuric acid", "Nitric acid", "Citric acid"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "10-math-1",
+    "class": "10",
+    "subject": "Maths",
+    "question": "Approximate value of π is:",
+    "options": ["2.14", "3.14", "3.41", "4.13"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-math-2",
+    "class": "10",
+    "subject": "Maths",
+    "question": "2 + 3 × 4 equals:",
+    "options": ["20", "24", "14", "12"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-3",
+    "class": "10",
+    "subject": "Maths",
+    "question": "A triangle with all sides equal is called:",
+    "options": ["Isosceles triangle", "Scalene triangle", "Equilateral triangle", "Right triangle"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-4",
+    "class": "10",
+    "subject": "Maths",
+    "question": "1 kilometre is equal to:",
+    "options": ["10 metres", "100 metres", "1000 metres", "10000 metres"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-5",
+    "class": "10",
+    "subject": "Maths",
+    "question": "Perimeter of a square with side a is:",
+    "options": ["2a", "3a", "4a", "a²"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-6",
+    "class": "10",
+    "subject": "Maths",
+    "question": "5² is equal to:",
+    "options": ["10", "15", "20", "25"],
+    "correctIndex": 3
+  },
+  {
+    "id": "10-math-7",
+    "class": "10",
+    "subject": "Maths",
+    "question": "A line cutting a circle at two points is called:",
+    "options": ["Radius", "Diameter", "Secant", "Tangent"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-8",
+    "class": "10",
+    "subject": "Maths",
+    "question": "Mean of 2, 4, 6, 8 is:",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-math-9",
+    "class": "10",
+    "subject": "Maths",
+    "question": "Sum of angles in a triangle is:",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-math-10",
+    "class": "10",
+    "subject": "Maths",
+    "question": "Which of the following is an even number?",
+    "options": ["5", "7", "9", "8"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "10-bio-1",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Basic unit of life is:",
+    "options": ["Tissue", "Organ", "Cell", "Organ system"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-bio-2",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Photosynthesis mainly occurs in:",
+    "options": ["Mitochondria", "Nucleus", "Chloroplast", "Vacuole"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-bio-3",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Largest organ of the human body is:",
+    "options": ["Liver", "Skin", "Heart", "Brain"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-bio-4",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Blood cells that carry oxygen are:",
+    "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma cells"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-bio-5",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Organ that pumps blood in the body is:",
+    "options": ["Lungs", "Brain", "Heart", "Kidney"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-bio-6",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Shoulder joint is an example of:",
+    "options": ["Hinge joint", "Ball and socket joint", "Pivot joint", "Gliding joint"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-bio-7",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Animals that eat only plants are called:",
+    "options": ["Carnivores", "Omnivores", "Herbivores", "Decomposers"],
+    "correctIndex": 2
+  },
+  {
+    "id": "10-bio-8",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Loss of water from leaves in the form of vapour is called:",
+    "options": ["Respiration", "Transpiration", "Osmosis", "Diffusion"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-bio-9",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Respiratory organs in fish are:",
+    "options": ["Lungs", "Gills", "Skin", "Tracheae"],
+    "correctIndex": 1
+  },
+  {
+    "id": "10-bio-10",
+    "class": "10",
+    "subject": "Biology",
+    "question": "Tissue that connects muscle to bone is called:",
+    "options": ["Ligament", "Tendon", "Cartilage", "Nerve"],
+    "correctIndex": 1
+  },
+
+  {
+    "id": "11-phy-1",
+    "class": "11",
+    "subject": "Physics",
+    "question": "SI unit of force is:",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "correctIndex": 0
+  },
+  {
+    "id": "11-phy-2",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Device used to measure electric current is called:",
+    "options": ["Voltmeter", "Ammeter", "Thermometer", "Barometer"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-phy-3",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Speed is equal to:",
+    "options": ["Distance × Time", "Distance ÷ Time", "Time ÷ Distance", "Force ÷ Mass"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-phy-4",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Approximate value of acceleration due to gravity on Earth is:",
+    "options": ["8.9 m/s²", "9.8 m/s²", "10.8 m/s²", "1.8 m/s²"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-phy-5",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Force that pulls objects towards the Earth is:",
+    "options": ["Magnetic force", "Electrostatic force", "Gravitational force", "Nuclear force"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-phy-6",
+    "class": "11",
+    "subject": "Physics",
+    "question": "SI unit of electric power is:",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "correctIndex": 3
+  },
+  {
+    "id": "11-phy-7",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Concave mirror", "Plane mirror", "Convex mirror", "Parabolic mirror"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-phy-8",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Energy stored in a raised object is called:",
+    "options": ["Kinetic energy", "Potential energy", "Heat energy", "Chemical energy"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-phy-9",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Sound cannot travel through:",
+    "options": ["Solid", "Liquid", "Gas", "Vacuum"],
+    "correctIndex": 3
+  },
+  {
+    "id": "11-phy-10",
+    "class": "11",
+    "subject": "Physics",
+    "question": "Approximate speed of light in air is:",
+    "options": ["3 × 10³ m/s", "3 × 10⁵ m/s", "3 × 10⁶ m/s", "3 × 10⁸ m/s"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "11-chem-1",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Atomic number of an element is equal to the number of:",
+    "options": ["Neutrons", "Protons", "Electrons in outer shell", "Nucleons"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-chem-2",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Chemical symbol of Sodium is:",
+    "options": ["So", "Na", "Sn", "S"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-chem-3",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "pH of a neutral solution is:",
+    "options": ["0", "5", "7", "14"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-chem-4",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Gas used by plants during photosynthesis is:",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-chem-5",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Smallest unit of an element which retains its properties is:",
+    "options": ["Molecule", "Atom", "Ion", "Nucleus"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-chem-6",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Water (H₂O) is an example of a:",
+    "options": ["Element", "Mixture", "Compound", "Alloy"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-chem-7",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Which of the following is a noble gas?",
+    "options": ["Oxygen", "Nitrogen", "Neon", "Hydrogen"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-chem-8",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Change of solid directly into gas is called:",
+    "options": ["Condensation", "Evaporation", "Sublimation", "Fusion"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-chem-9",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "Chemical formula of common salt is:",
+    "options": ["KCl", "NaCl", "Na₂CO₃", "CaCO₃"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-chem-10",
+    "class": "11",
+    "subject": "Chemistry",
+    "question": "The main acid present in lemon is:",
+    "options": ["Hydrochloric acid", "Sulphuric acid", "Nitric acid", "Citric acid"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "11-math-1",
+    "class": "11",
+    "subject": "Maths",
+    "question": "Approximate value of π is:",
+    "options": ["2.14", "3.14", "3.41", "4.13"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-math-2",
+    "class": "11",
+    "subject": "Maths",
+    "question": "2 + 3 × 4 equals:",
+    "options": ["20", "24", "14", "12"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-3",
+    "class": "11",
+    "subject": "Maths",
+    "question": "A triangle with all sides equal is called:",
+    "options": ["Isosceles triangle", "Scalene triangle", "Equilateral triangle", "Right triangle"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-4",
+    "class": "11",
+    "subject": "Maths",
+    "question": "1 kilometre is equal to:",
+    "options": ["10 metres", "100 metres", "1000 metres", "10000 metres"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-5",
+    "class": "11",
+    "subject": "Maths",
+    "question": "Perimeter of a square with side a is:",
+    "options": ["2a", "3a", "4a", "a²"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-6",
+    "class": "11",
+    "subject": "Maths",
+    "question": "5² is equal to:",
+    "options": ["10", "15", "20", "25"],
+    "correctIndex": 3
+  },
+  {
+    "id": "11-math-7",
+    "class": "11",
+    "subject": "Maths",
+    "question": "A line cutting a circle at two points is called:",
+    "options": ["Radius", "Diameter", "Secant", "Tangent"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-8",
+    "class": "11",
+    "subject": "Maths",
+    "question": "Mean of 2, 4, 6, 8 is:",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-math-9",
+    "class": "11",
+    "subject": "Maths",
+    "question": "Sum of angles in a triangle is:",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-math-10",
+    "class": "11",
+    "subject": "Maths",
+    "question": "Which of the following is an even number?",
+    "options": ["5", "7", "9", "8"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "11-bio-1",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Basic unit of life is:",
+    "options": ["Tissue", "Organ", "Cell", "Organ system"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-bio-2",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Photosynthesis mainly occurs in:",
+    "options": ["Mitochondria", "Nucleus", "Chloroplast", "Vacuole"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-bio-3",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Largest organ of the human body is:",
+    "options": ["Liver", "Skin", "Heart", "Brain"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-bio-4",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Blood cells that carry oxygen are:",
+    "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma cells"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-bio-5",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Organ that pumps blood in the body is:",
+    "options": ["Lungs", "Brain", "Heart", "Kidney"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-bio-6",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Shoulder joint is an example of:",
+    "options": ["Hinge joint", "Ball and socket joint", "Pivot joint", "Gliding joint"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-bio-7",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Animals that eat only plants are called:",
+    "options": ["Carnivores", "Omnivores", "Herbivores", "Decomposers"],
+    "correctIndex": 2
+  },
+  {
+    "id": "11-bio-8",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Loss of water from leaves in the form of vapour is called:",
+    "options": ["Respiration", "Transpiration", "Osmosis", "Diffusion"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-bio-9",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Respiratory organs in fish are:",
+    "options": ["Lungs", "Gills", "Skin", "Tracheae"],
+    "correctIndex": 1
+  },
+  {
+    "id": "11-bio-10",
+    "class": "11",
+    "subject": "Biology",
+    "question": "Tissue that connects muscle to bone is called:",
+    "options": ["Ligament", "Tendon", "Cartilage", "Nerve"],
+    "correctIndex": 1
+  },
+
+  {
+    "id": "12-phy-1",
+    "class": "12",
+    "subject": "Physics",
+    "question": "SI unit of force is:",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "correctIndex": 0
+  },
+  {
+    "id": "12-phy-2",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Device used to measure electric current is called:",
+    "options": ["Voltmeter", "Ammeter", "Thermometer", "Barometer"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-phy-3",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Speed is equal to:",
+    "options": ["Distance × Time", "Distance ÷ Time", "Time ÷ Distance", "Force ÷ Mass"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-phy-4",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Approximate value of acceleration due to gravity on Earth is:",
+    "options": ["8.9 m/s²", "9.8 m/s²", "10.8 m/s²", "1.8 m/s²"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-phy-5",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Force that pulls objects towards the Earth is:",
+    "options": ["Magnetic force", "Electrostatic force", "Gravitational force", "Nuclear force"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-phy-6",
+    "class": "12",
+    "subject": "Physics",
+    "question": "SI unit of electric power is:",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "correctIndex": 3
+  },
+  {
+    "id": "12-phy-7",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Concave mirror", "Plane mirror", "Convex mirror", "Parabolic mirror"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-phy-8",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Energy stored in a raised object is called:",
+    "options": ["Kinetic energy", "Potential energy", "Heat energy", "Chemical energy"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-phy-9",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Sound cannot travel through:",
+    "options": ["Solid", "Liquid", "Gas", "Vacuum"],
+    "correctIndex": 3
+  },
+  {
+    "id": "12-phy-10",
+    "class": "12",
+    "subject": "Physics",
+    "question": "Approximate speed of light in air is:",
+    "options": ["3 × 10³ m/s", "3 × 10⁵ m/s", "3 × 10⁶ m/s", "3 × 10⁸ m/s"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "12-chem-1",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Atomic number of an element is equal to the number of:",
+    "options": ["Neutrons", "Protons", "Electrons in outer shell", "Nucleons"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-chem-2",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Chemical symbol of Sodium is:",
+    "options": ["So", "Na", "Sn", "S"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-chem-3",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "pH of a neutral solution is:",
+    "options": ["0", "5", "7", "14"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-chem-4",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Gas used by plants during photosynthesis is:",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-chem-5",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Smallest unit of an element which retains its properties is:",
+    "options": ["Molecule", "Atom", "Ion", "Nucleus"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-chem-6",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Water (H₂O) is an example of a:",
+    "options": ["Element", "Mixture", "Compound", "Alloy"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-chem-7",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Which of the following is a noble gas?",
+    "options": ["Oxygen", "Nitrogen", "Neon", "Hydrogen"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-chem-8",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Change of solid directly into gas is called:",
+    "options": ["Condensation", "Evaporation", "Sublimation", "Fusion"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-chem-9",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "Chemical formula of common salt is:",
+    "options": ["KCl", "NaCl", "Na₂CO₃", "CaCO₃"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-chem-10",
+    "class": "12",
+    "subject": "Chemistry",
+    "question": "The main acid present in lemon is:",
+    "options": ["Hydrochloric acid", "Sulphuric acid", "Nitric acid", "Citric acid"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "12-math-1",
+    "class": "12",
+    "subject": "Maths",
+    "question": "Approximate value of π is:",
+    "options": ["2.14", "3.14", "3.41", "4.13"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-math-2",
+    "class": "12",
+    "subject": "Maths",
+    "question": "2 + 3 × 4 equals:",
+    "options": ["20", "24", "14", "12"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-3",
+    "class": "12",
+    "subject": "Maths",
+    "question": "A triangle with all sides equal is called:",
+    "options": ["Isosceles triangle", "Scalene triangle", "Equilateral triangle", "Right triangle"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-4",
+    "class": "12",
+    "subject": "Maths",
+    "question": "1 kilometre is equal to:",
+    "options": ["10 metres", "100 metres", "1000 metres", "10000 metres"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-5",
+    "class": "12",
+    "subject": "Maths",
+    "question": "Perimeter of a square with side a is:",
+    "options": ["2a", "3a", "4a", "a²"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-6",
+    "class": "12",
+    "subject": "Maths",
+    "question": "5² is equal to:",
+    "options": ["10", "15", "20", "25"],
+    "correctIndex": 3
+  },
+  {
+    "id": "12-math-7",
+    "class": "12",
+    "subject": "Maths",
+    "question": "A line cutting a circle at two points is called:",
+    "options": ["Radius", "Diameter", "Secant", "Tangent"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-8",
+    "class": "12",
+    "subject": "Maths",
+    "question": "Mean of 2, 4, 6, 8 is:",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-math-9",
+    "class": "12",
+    "subject": "Maths",
+    "question": "Sum of angles in a triangle is:",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-math-10",
+    "class": "12",
+    "subject": "Maths",
+    "question": "Which of the following is an even number?",
+    "options": ["5", "7", "9", "8"],
+    "correctIndex": 3
+  },
+
+  {
+    "id": "12-bio-1",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Basic unit of life is:",
+    "options": ["Tissue", "Organ", "Cell", "Organ system"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-bio-2",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Photosynthesis mainly occurs in:",
+    "options": ["Mitochondria", "Nucleus", "Chloroplast", "Vacuole"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-bio-3",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Largest organ of the human body is:",
+    "options": ["Liver", "Skin", "Heart", "Brain"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-bio-4",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Blood cells that carry oxygen are:",
+    "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma cells"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-bio-5",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Organ that pumps blood in the body is:",
+    "options": ["Lungs", "Brain", "Heart", "Kidney"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-bio-6",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Shoulder joint is an example of:",
+    "options": ["Hinge joint", "Ball and socket joint", "Pivot joint", "Gliding joint"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-bio-7",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Animals that eat only plants are called:",
+    "options": ["Carnivores", "Omnivores", "Herbivores", "Decomposers"],
+    "correctIndex": 2
+  },
+  {
+    "id": "12-bio-8",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Loss of water from leaves in the form of vapour is called:",
+    "options": ["Respiration", "Transpiration", "Osmosis", "Diffusion"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-bio-9",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Respiratory organs in fish are:",
+    "options": ["Lungs", "Gills", "Skin", "Tracheae"],
+    "correctIndex": 1
+  },
+  {
+    "id": "12-bio-10",
+    "class": "12",
+    "subject": "Biology",
+    "question": "Tissue that connects muscle to bone is called:",
+    "options": ["Ligament", "Tendon", "Cartilage", "Nerve"],
+    "correctIndex": 1
+  }
+]

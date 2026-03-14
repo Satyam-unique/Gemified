@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform - Your Learning Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i> GAMIFIED-LEARNING
+            </div>
+            <nav class="nav-links">
+                <a href="#courses">Courses</a>
+                <a href="#features">Features</a>
+                <a href="#leaderboard-info">Leaderboard</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-login glow-btn">Login / Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- LEFT: Main copy -->
+                    <div class="hero-main hero-content">
+                        <h1>Make Learning an Adventure</h1>
+                        <p>Fun, gamified STEM education for Classes 6–12, designed for every student in India.</p>
+
+                        <!-- Gamified hero badge pills -->
+                        <div class="hero-badges">
+                            <span class="pill pill-xp">⭐ Earn XP for every quiz</span>
+                            <span class="pill pill-streak">🔥 Build your daily streak</span>
+                            <span class="pill pill-rank">🏆 Climb the leaderboard</span>
+                        </div>
+
+                        <!-- Primary CTA -->
+                        <a href="signup.html" class="btn btn-primary glow-btn">
+                            <span>Start Your Adventure</span>
+                        </a>
+
+                        <!-- Mini stats (live-style numbers) -->
+                        <div class="hero-mini-stats">
+                            <div class="hero-mini-stat">
+                                <span class="hms-label">Total Questions</span>
+                                <span class="hms-value">5,000+</span>
+                            </div>
+                            <div class="hero-mini-stat">
+                                <span class="hms-label">Daily Streaks</span>
+                                <span class="hms-value">10k🔥</span>
+                            </div>
+                            <div class="hero-mini-stat">
+                                <span class="hms-label">XP Earned</span>
+                                <span class="hms-value">1M+</span>
+                            </div>
+                        </div>
+
+                        <!-- Scroll hint -->
+                        <div class="scroll-indicator">
+                            <span>Scroll to explore</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: Live leaderboard-style card -->
+                    <aside class="hero-side-card">
+                        <div class="hsc-header">
+                            <span class="hsc-pill">Today on LearnHub</span>
+                            <span class="hsc-dot"></span>
+                        </div>
+
+                        <h3>Live Leaderboard Snapshot</h3>
+                        <p class="hsc-sub">Can you beat today’s top learners?</p>
+
+                        <ul class="hsc-list">
+                            <li>
+                                <div class="hsc-rank">#1</div>
+                                <div class="hsc-info">
+                                    <strong>Aarav • Class 10</strong>
+                                    <small>Streak 12 days • 1540 XP</small>
+                                </div>
+                                <span class="hsc-xp-tag">🔥 ON FIRE</span>
+                            </li>
+                            <li>
+                                <div class="hsc-rank">#2</div>
+                                <div class="hsc-info">
+                                    <strong>Meera • Class 9</strong>
+                                    <small>Streak 7 days • 1210 XP</small>
+                                </div>
+                                <span class="hsc-xp-tag">⚡ FAST</span>
+                            </li>
+                            <li>
+                                <div class="hsc-rank">#3</div>
+                                <div class="hsc-info">
+                                    <strong>Rohan • Class 12</strong>
+                                    <small>Streak 4 days • 980 XP</small>
+                                </div>
+                                <span class="hsc-xp-tag">⭐ RISING</span>
+                            </li>
+                        </ul>
+
+                        <div class="hsc-footer">
+                            <span>Sign up and your name can show up here 👑</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- Floating orbs / shapes for gamified vibe (already styled in CSS) -->
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+        </section>
+
+        <!-- ================= FEATURES / STATS ================= -->
+        <section class="stats" id="features">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h3>Daily Challenges</h3>
+                        <p>Fun, interactive quizzes every day.</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Earn Rewards</h3>
+                        <p>Unlock badges, levels and XP.</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Learn by Playing</h3>
+                        <p>Short, concept-focused question sets.</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Track Your Progress</h3>
+                        <p>Beautiful dashboard with streaks & XP.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SUBJECT CARDS ================= -->
+        <section id="courses" class="exam-categories">
+            <div class="container">
+                <h2>Start Your Learning Adventure</h2>
+                <p>Dive into our core STEM subjects, designed to make learning intuitive and fun for classes 6 to 12.</p>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="category-ribbon">+10 XP / Quiz</div>
+                        <i class="fas fa-atom"></i>
+                        <h3>Physics</h3>
+                        <span>Mechanics, Optics & More</span>
+                        <a href="login.html">Start Learning <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-ribbon">+10 XP / Quiz</div>
+                        <i class="fas fa-flask"></i>
+                        <h3>Chemistry</h3>
+                        <span>Atoms, Bonds & Reactions</span>
+                        <a href="login.html">Start Learning <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-ribbon">+10 XP / Quiz</div>
+                        <i class="fas fa-calculator"></i>
+                        <h3>Maths</h3>
+                        <span>Algebra, Calculus & Geometry</span>
+                        <a href="login.html">Start Learning <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-ribbon">+10 XP / Quiz</div>
+                        <i class="fas fa-dna"></i>
+                        <h3>Biology</h3>
+                        <span>Cells, Genetics & Life</span>
+                        <a href="login.html">Start Learning <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CTA / LEADERBOARD TEASER ================= -->
+        <section class="cta-section" id="leaderboard-info">
+            <div class="container">
+                <h2>Compete. Learn. Win.</h2>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Daily XP for consistent learning</li>
+                    <li><i class="fas fa-check-circle"></i> Climb the leaderboard with friends</li>
+                    <li><i class="fas fa-check-circle"></i> Practice quizzes for every chapter</li>
+                </ul>
+                <div class="app-links">
+                    <a href="#"><img src="https://i.imgur.com/gTy92a2.png" alt="Get it on Google Play"></a>
+                    <a href="#"><img src="https://i.imgur.com/eS5r2d4.png" alt="Download on the App Store"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <h4><i class="fas fa-book-open"></i> LearnHub</h4>
+                <p>We understand that every student has unique needs and abilities. We work to grow their potential.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Our Centres</h4>
+                <ul>
+                    <li><a href="#">New Delhi</a></li>
+                    <li><a href="#">Kota</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                    <li><a href="#">Pune</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Popular Exams</h4>
+                <ul>
+                    <li><a href="#">IIT JEE</a></li>
+                    <li><a href="#">NEET</a></li>
+                    <li><a href="#">UPSC</a></li>
+                    <li><a href="#">GATE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LearnHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

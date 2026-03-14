@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - GAMIFIED-LEARNING</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navbar (same style as dashboard) -->
+    <header class="navbar" id="main-navbar">
+        <div class="logo">
+            <i class="fas fa-gamepad"></i> GAMIFIED-LEARNING
+        </div>
+
+        <div class="selected-course">
+            <span id="admin-display-name">Admin</span>
+        </div>
+
+        <div class="user-info">
+            <button id="logout-button" class="btn-logout">Logout</button>
+        </div>
+    </header>
+
+    <div class="dashboard-body">
+        <!-- Sidebar (simple for admin) -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="sidebar-link">
+                    <i class="fas fa-arrow-left"></i> Back to Dashboard
+                </a>
+                <a href="#" class="sidebar-link active">
+                    <i class="fas fa-tools"></i> Question Manager
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Admin Content -->
+        <main class="main-content">
+            <h2>Admin Panel – Question Bank</h2>
+            <p style="margin-bottom: 1rem; color: #4b5563;">
+                Add, bulk upload, and manage quiz questions for all students.
+            </p>
+
+            <!-- ============= SINGLE QUESTION FORM ============= -->
+            <div class="admin-card">
+                <h3>Add Single Question</h3>
+                <form id="admin-question-form" class="profile-details-form" style="padding: 0; margin-top: 1rem;">
+                    <div class="form-grid">
+                        <div class="input-group">
+                            <label for="admin-subject">Subject</label>
+                            <select id="admin-subject" required>
+                                <option value="physics">Physics</option>
+                                <option value="chemistry">Chemistry</option>
+                                <option value="maths">Maths</option>
+                                <option value="biology">Biology</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="admin-class">Class</label>
+                            <select id="admin-class" required>
+                                <option value="9">Class 9</option>
+                                <option value="10">Class 10</option>
+                                <option value="11">Class 11</option>
+                                <option value="12">Class 12</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group" style="grid-column: 1 / -1;">
+                            <label for="admin-question-text">Question Text</label>
+                            <textarea id="admin-question-text" rows="2" style="width: 100%; padding: 0.7rem; border-radius: 8px; border: 1px solid #ccc;" required></textarea>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="admin-option-1">Option 1</label>
+                            <input type="text" id="admin-option-1" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="admin-option-2">Option 2</label>
+                            <input type="text" id="admin-option-2" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="admin-option-3">Option 3</label>
+                            <input type="text" id="admin-option-3" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="admin-option-4">Option 4</label>
+                            <input type="text" id="admin-option-4" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="admin-correct-index">Correct Option</label>
+                            <select id="admin-correct-index" required>
+                                <option value="0">Option 1</option>
+                                <option value="1">Option 2</option>
+                                <option value="2">Option 3</option>
+                                <option value="3">Option 4</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="admin-xp">XP (optional)</label>
+                            <input type="number" id="admin-xp" placeholder="10">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-login" style="margin-top: 0.5rem;">
+                        Add Question
+                    </button>
+                </form>
+            </div>
+
+            <!-- ============= BULK JSON UPLOAD CARD ============= -->
+            <div class="admin-card">
+                <h3>Bulk Upload Questions (JSON)</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">
+                    Choose a <strong>.json</strong> file with an array of question objects and upload.
+                    Each object should have: <code>subject</code>, <code>class</code>,
+                    <code>question</code>, <code>options[4]</code>, <code>correctIndex</code>, <code>xp</code>.
+                </p>
+
+                <input type="file" id="json-upload-input" accept=".json" />
+                
+                <button id="json-upload-btn" class="btn-login" style="margin-top: 0.75rem;">
+                    Upload JSON
+                </button>
+
+                <small id="json-upload-status" class="upload-status"></small>
+            </div>
+
+            <!-- ============= FILTER + TABLE ============= -->
+            <div class="admin-card">
+                <h3>Existing Questions</h3>
+
+                <div class="form-grid" style="margin-bottom: 1rem;">
+                    <div class="input-group">
+                        <label for="admin-filter-subject">Filter by Subject</label>
+                        <select id="admin-filter-subject">
+                            <option value="physics">Physics</option>
+                            <option value="chemistry">Chemistry</option>
+                            <option value="maths">Maths</option>
+                            <option value="biology">Biology</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="admin-filter-class">Filter by Class</label>
+                        <select id="admin-filter-class">
+                            <option value="9">Class 9</option>
+                            <option value="10">Class 10</option>
+                            <option value="11">Class 11</option>
+                            <option value="12">Class 12</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="leaderboard-card" style="padding: 0; box-shadow: none;">
+                    <table class="leaderboard-table">
+                        <thead>
+                            <tr>
+                                <th>Question</th>
+                                <th>Subject</th>
+                                <th>Class</th>
+                                <th>XP</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-questions-body">
+                            <tr><td colspan="5">Loading...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <!-- Main script -->
+    <script src="script.js"></script>
+</body>
+</html>
