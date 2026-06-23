@@ -2,7 +2,7 @@
 // 1. FIREBASE INITIALIZATION
 // ==========================================
 const firebaseConfig = {
-  apiKey: "API key hidden",
+  apiKey: "API IS HIDDEN",
   authDomain: "gamified-learning-69170.firebaseapp.com",
   projectId: "gamified-learning-69170",
   storageBucket: "gamified-learning-69170.firebasestorage.app",
